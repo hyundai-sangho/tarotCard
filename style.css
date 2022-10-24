@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+}
+
+p {
+  margin-top: 10px;
+  text-align: left;
+}
+
+#container {
+  text-align: center;
+}
+
+#display {
+  border: 5px solid orange;
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  padding: 10px;
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+#display::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+#imgBox {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#draw {
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: orange;
+  color: black;
+}
